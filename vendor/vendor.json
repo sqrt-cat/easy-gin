@@ -1,0 +1,13 @@
+{
+	"comment": "",
+	"ignore": "test",
+	"package": [
+		{
+			"checksumSHA1": "eyCJTSzH8Eu81PaaXpvXPShc9+s=",
+			"path": "github.com/go-sql-driver/mysql",
+			"revision": "972a708cf97995463843c08c8585b26997daf0e1",
+			"revisionTime": "2019-02-17T07:26:58Z"
+		}
+	],
+	"rootPath": "easy-gin"
+}
