@@ -1,11 +1,17 @@
 package models
 
 import (
+	"database/sql"
+	"easy-gin/drivers"
 	"log"
 )
 
+// models package's db obj
+// all db operation should be done in models pkg
+// so db is a pkg inner var
+var db *sql.DB = drivers.MysqlDb
+
 type User struct {
-	Model
 	Id   int    `json:"id" form:"id" primaryKey:"true"`
 	Name string `json:"name" form:"name" binding:"required"`
 	Age  int    `json:"age" form:"age" binding:"required"`

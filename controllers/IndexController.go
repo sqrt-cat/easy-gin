@@ -21,6 +21,6 @@ func IndexHome(ctx *gin.Context) {
 
 	//ctx.String(http.StatusOK, "hello %s %s %s %s %s", queryVal1, queryVal2, formVal3, formVal4, pathVal5)
 	ctx.HTML(http.StatusOK, "index/index.html", gin.H{
-		"msg": "hello world, gin",
+		"msg": "easy gin",
 	})
 }
